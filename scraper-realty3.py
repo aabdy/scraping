@@ -3,22 +3,18 @@ from requests_html import HTMLSession
 import csv
 from csv import writer
 
-
 url = 'https://propertiabali.com/bali-villas-for-sale'
 s = HTMLSession()
 response = s.get(url)
-for html in response.html:
-    
+for html in response.html:  
     about = html.find('a.noHover')
-
-
     i = len(about)
-    print('we entered cycle')
+    #entering cycle
     k = []
     for l in range(0, i):
         for element in about:
             k.append(element.links)
-    print('still in cycle')
+    #still in cycle
     k = list(k)
     k[1] = list(k[1])
     def listToString(g):
@@ -48,17 +44,14 @@ for html in response.html:
                   lst.append(item)
                   lst.append(bitem)
                   lst.append(nitem)
-                  lst.append(k[j])
-              
+                  lst.append(k[j])              
                   writer_object.writerow(lst)
                   print(lst)
     f_object.close()
                
 with open('villa2.txt', 'r') as file:
     x = file.read()
-    x = x.replace('"\n', '",')
-    
-    
+    x = x.replace('"\n', '",')     
 
 with open('villa2.txt', 'w', newline='') as file:
     file.write(x)
