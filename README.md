@@ -1,7 +1,9 @@
-Python scrapers for villas for sale site 
+## Python scrapers for villas on bali 
 
-scrapes all villas from sites 
-propertiabali.com
-balitreasureproperties.com
-villablisale.com 
+scrape all villas from sites 
+* propertiabali.com
+* balitreasureproperties.com
+* villablisale.com
+
+  \
 to lists in csv format.
