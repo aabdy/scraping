@@ -10,11 +10,13 @@ scripts, which scrape property websites and put data in csv files
 
 
 ### Examples
-##### villabalisale.com
+#### propertiabali.com
 ![propertiabali.com][propertiabali_img]
 
-![balitreasureproperties.com][balitreasureproperties_img]
+#### balitreasureproperties.com
 
+![balitreasureproperties.com][balitreasureproperties_img]
+##### villabalisale.com
 ![villablisale.com][villablisale_img]
 
 [villablisale_img]: https://github.com/aabdy/scraping/blob/2198d46c41c7e6871449e1eddd17a25e50bdb297/Screenshot%20from%202024-05-24%2000-24-02.png
