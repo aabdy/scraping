@@ -32,6 +32,7 @@ langtable==0.0.68
 libcomps==0.1.20
 libdnf==0.73.3
 lxml==4.9.3
+lxml[html_clean]
 RUN pip install lxml[html_clean]
 Mako==1.2.3
 MarkupSafe==2.1.3
